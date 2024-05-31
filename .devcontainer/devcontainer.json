@@ -1,0 +1,19 @@
+{
+    "name": "Java Project",
+    "image": "mcr.microsoft.com/vscode/devcontainers/java:0-17",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "java.jdt.ls.java.home": "/docker-java-home", 
+          "forwardPorts": [9876]
+        },
+        "extensions": [
+          "vscjava.vscode-java-pack",
+          "vscjava.vscode-gradle",
+          "github.copilot",
+          "github.copilot-chat"
+        ]
+      }
+    }
+
+}
